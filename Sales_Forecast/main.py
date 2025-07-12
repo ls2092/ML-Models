@@ -91,7 +91,7 @@ plt.ylabel('Weekly Sales')
 plt.show()
 
 
-# Feature importance plot
+# Feature importance plot to visualize the most important features
 importances = model.feature_importances_
 feature_names = X.columns
 sorted_idx = np.argsort(importances)[::-1]
