@@ -7,6 +7,7 @@ This repository contains three end-to-end machine learning projects using datase
 - **Score Predictor** – Predict student exam scores based on study hours and related features
 - **Loan Approval Predictor** – Predict whether a loan application will be approved or not
 - **Sales Forecast** – Forecast future Walmart sales using historical and time-series data
+- **Traffic Sign Predictor** - Classifies traffic sign images into their respective categories using a convolutional neural network (CNN) trained  on labeled image data.
 
 ---
 
@@ -25,6 +26,10 @@ ML-Models/
 ├── Score_Predictor/
 | └── archive
 │ └── main.py
+| 
+├── Traffic_Sign_Predictor/
+| └── archive
+│ └── main.py 
 │
 └── README.md
 
@@ -65,5 +70,15 @@ python main.py
 ```bash
 cd Sales_Forecast
 pip install pandas matplotlib scikit-learn xgboost
+python main.py
+
+
+### ✅ Traffic Sign Predictor
+
+> Classifies traffic sign images into their respective categories using a convolutional neural network (CNN) trained on labeled image data.
+
+```bash
+cd Traffic_Sign_Predictor
+pip install pandas numpy matplotlib seaborn opencv-python scikit-learn tensorflow
 python main.py
 ````
